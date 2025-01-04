@@ -1,0 +1,7 @@
+flask
+pymysql
+bcrypt
+boto3
+python-dotenv
+werkzeug
+

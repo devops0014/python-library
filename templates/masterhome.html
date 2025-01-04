@@ -1,0 +1,344 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<style>
+.center {
+  margin: auto;
+  width: 50%;
+  <!-- border: 1px solid green;-->
+  padding: 10px;
+}
+.tdalign {
+ 
+  
+  padding: 10px;
+}
+</style>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CCIT</title>
+
+    <!-- Favicon and Fonts -->
+    <link rel="shortcut icon" type="image/icon" href="static/assets/logo/favicon.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="static/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/assets/css/linearicons.css">
+    <link rel="stylesheet" href="static/assets/css/animate.css">
+    <link rel="stylesheet" href="static/assets/css/flaticon.css">
+    <link rel="stylesheet" href="static/assets/css/slick.css">
+    <link rel="stylesheet" href="static/assets/css/slick-theme.css">
+    <link rel="stylesheet" href="static/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/assets/css/bootsnav.css">
+    <link rel="stylesheet" href="static/assets/css/style.css">
+    <link rel="stylesheet" href="static/assets/css/responsive.css">
+
+
+</head>
+	
+	<body>
+	
+		
+		<!--header-top end -->
+
+		<!-- top-area Start -->
+		<section class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="/">Online<span>&nbsp Book Library</span></a>
+
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                        <li ><a href="/">home</a></li>
+			                    <li class="scroll"><a href="#works">how it works</a></li>
+			                    <li class="scroll"><a href="#explore">Category</a></li>
+			                    <li class="scroll"><a href="#reviews">reviews</a></li>
+			                    <li class="scroll"><a href="#blog">blog</a></li>
+			                    <li><a href="javascript:void(0);" id="authBtn">Sign In</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+		    <div class="clearfix"></div>
+
+		</section><!-- /.top-area-->
+		<!-- top-area End -->
+
+		<div class="row">
+	<section id="home" class="welcome-hero">
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>This is your Online Free Library </h2>
+					<p>
+						Watch, Read and Refer to your friends. 
+					</p>
+				</div>
+				
+				</div>
+			</div>
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<!--list-topics start -->
+		<section id="list-topics" class="list-topics">
+			<div class="container">
+				<div class="list-topics-content">
+					<ul>
+					<li>
+    <div class="single-list-topics-content">
+        <div class="single-list-topics-icon">
+            <img src="static/assets/images/favicons/Books.png" style="width:48px; height:48px;">
+        </div>
+        <h2><a href="#">Books</a></h2>
+        <p>150 listings</p>
+    </div>
+</li>
+						<li>
+							<div class="single-list-topics-content">
+								 <div class="single-list-topics-icon">
+            <img src="static/assets/images/favicons/Location.png" style="width:48px; height:48px;">
+        </div>
+								<h2><a href="#">Country</a></h2>
+								<p>214 listings</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								 <div class="single-list-topics-icon">
+            <img src="static/assets/images/favicons/Authors.png" style="width:48px; height:48px;">
+        </div>
+								<h2><a href="#">Authors</a></h2>
+								<p>185 listings</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								 <div class="single-list-topics-icon">
+            <img src="static/assets/images/favicons/Period.png" style="width:48px; height:48px;">
+        </div>
+								<h2><a href="#">Period</a></h2>
+								<p>200 listings</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								 <div class="single-list-topics-icon">
+            <img src="static/assets/images/favicons/Language.png" style="width:48px; height:48px;">
+        </div>
+								<h2><a href="#">Language</a></h2>
+								<p>120 listings</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.list-topics-->	
+	<main>
+	 <!-- Sign-In / Sign-Up Modal -->
+    <div id="authModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="tab">
+                <button class="tablinks active" onclick="openForm(event, 'SignIn')">Sign In</button>
+                <button class="tablinks" onclick="openForm(event, 'SignUp')">Sign Up</button>
+            </div>
+
+            <div id="SignIn" class="form-container active">
+                <h2>Sign In</h2>
+                <form action="/signin" method="POST">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <input type="submit" value="Sign In">
+                </form>
+                
+            </div>
+
+            <div id="SignUp" class="form-container">
+                <h2>Sign Up</h2>
+                <form action="/signup" method="POST" enctype="multipart/form-data">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <label for="image">Profile Image:</label>
+                    <input type="file" id="image" name="image" required>
+                    <input type="submit" value="Sign Up">
+                </form>
+            </div>
+        </div>
+    </div>
+	<div >
+		{% block content %}{% endblock %}
+	</div>
+	</main>
+</div>
+
+		
+		<!--subscription end -->
+
+		<!--footer start-->
+		<footer id="footer"  class="footer">
+			<div class="container">
+				<div class="footer-menu">
+		           	<div class="row">
+			           	<div class="col-sm-3">
+			           		 <div class="navbar-header">
+				                <a class="navbar-brand" href="index.html">Online<span>&nbsp Book Library</span></a>
+				            </div><!--/.navbar-header-->
+			           	</div>
+			         
+		           </div>
+				</div>
+				<div class="hm-footer-copyright">
+					<div class="row">
+						<div class="col-sm-5">
+							<p>
+								&copy;copyright. designed and developed by <a href="https://www.themesine.com/">CCIT</a>
+							</p><!--/p-->
+						</div>
+						<div class="col-sm-7">
+							<div class="footer-social">
+								
+								<a href="#"><i class="fa fa-facebook"></i></a>	
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-linkedin"></i></a>
+								<a href="#"><i class="fa fa-google-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					
+				</div><!--/.hm-footer-copyright-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-->
+		<!--footer end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="static/assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="static/assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="static/assets/js/bootsnav.js"></script>
+
+        <!--feather.min.js-->
+        <script  src="static/assets/js/feather.min.js"></script>
+
+        <!-- counter js -->
+		<script src="static/assets/js/jquery.counterup.min.js"></script>
+		<script src="static/assets/js/waypoints.min.js"></script>
+
+        <!--slick.min.js-->
+        <script src="static/assets/js/slick.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		     
+        <!--Custom JS-->
+        <script src="static/assets/js/custom.js"></script>
+<script>
+    // Modal and Tab Functionality
+    const modal = document.getElementById("authModal");
+    const authBtn = document.getElementById("authBtn");
+    const closeBtn = document.querySelector(".close");
+
+    // Open modal when the "Sign In" button is clicked
+    authBtn.onclick = function() { 
+        modal.style.display = "block"; 
+    };
+
+    // Close modal when the close button is clicked
+    closeBtn.onclick = function() { 
+        modal.style.display = "none"; 
+    };
+
+    // Remove the window click event to prevent closing when clicking outside
+    /* 
+    window.onclick = function(event) { 
+        if (event.target == modal) { 
+            modal.style.display = "none"; 
+        } 
+    }; 
+    */
+
+    // Switch between Sign-In and Sign-Up forms within the modal
+    function openForm(event, formId) {
+        // Remove 'active' class from all form containers and tabs
+        document.querySelectorAll('.form-container').forEach(form => form.classList.remove('active'));
+        document.querySelectorAll('.tab button').forEach(tab => tab.classList.remove('active'));
+
+        // Activate the chosen form and its corresponding tab button
+        document.getElementById(formId).classList.add('active');
+        
+        if (formId === 'SignIn') {
+            document.querySelector('.tab button[onclick*="SignIn"]').classList.add('active');
+        } else if (formId === 'SignUp') {
+            document.querySelector('.tab button[onclick*="SignUp"]').classList.add('active');
+        }
+    }
+
+    // Handle URL parameters for success or error messages on page load
+    window.onload = function() {
+        const urlParams = new URLSearchParams(window.location.search);
+
+        // Handle signup success
+        if (urlParams.has('signup') && urlParams.get('signup') === 'success') {
+            modal.style.display = "block"; // Open the modal
+            openForm(null, 'SignIn'); // Switch to Sign-In tab
+        }
+
+        // Handle user already exists error
+        if (urlParams.has('error') && urlParams.get('error') === 'exists') {
+            modal.style.display = "block"; // Open the modal
+            openForm(null, 'SignUp'); // Switch to Sign-Up tab
+
+            // Display error message inside the SignUp form
+            const errorMessage = document.createElement("p");
+            errorMessage.innerText = "User already exists. Please use a different email or sign in.";
+            errorMessage.style.color = "red";
+            document.getElementById("SignUp").prepend(errorMessage); // Insert error message at the top
+        }
+    };
+</script>
+
+
+
+
+
+    </body>
+	
+</html>
